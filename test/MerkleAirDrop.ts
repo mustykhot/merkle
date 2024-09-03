@@ -5,7 +5,6 @@ import {
 import { anyValue } from "@nomicfoundation/hardhat-chai-matchers/withArgs";
 import { expect } from "chai";
 import hre, { ethers } from "hardhat";
-import { experimentalAddHardhatNetworkMessageTraceHook } from "hardhat/config";
 
 describe("MerkleAirdrop", function () {
   async function deployToken() {
